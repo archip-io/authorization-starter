@@ -4,6 +4,7 @@ on:
     types: [ created ]
 jobs:
   publish:
+    name: Publish dependency
     runs-on: ubuntu-latest
     permissions:
       contents: read
